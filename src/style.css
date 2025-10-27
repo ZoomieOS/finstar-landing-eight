@@ -10,36 +10,36 @@
 @theme {
     --font-display: "Montserrat", sans-serif;
 
-    --color-primary: rgba(11, 70, 164, 1);
+    --color-primary: rgba(38, 158, 114, 1);
 
-    --color-header-btn: rgba(11, 70, 164, 1);
+    --color-header-btn: rgba(132, 184, 165, 1);
 
-    --color-heading: rgba(0, 0, 0, 1);
-    --color-hero-btn: rgba(11, 70, 164, 1);
+    --color-heading: rgba(159, 108, 12, 1);
+    --color-hero-btn: rgba(38, 158, 114, 1);
 
     --color-background-card: rgba(239, 249, 255, 1);
 
-    --color-cards-advantages: rgba(240, 249, 249, 1);
-    --color-advantages-subheading: rgba(9, 110, 132, 1);
+    --color-cards-advantages: rgba(232, 237, 233, 1);
+    --color-advantages-subheading: rgba(159, 108, 12, 1);
 
-    --color-why-us-subheading: rgba(11, 70, 164, 1);
-    --color-why-us-left: rgba(246, 246, 246, 1);
-    --color-why-us-right: rgba(246, 246, 246, 1);
-    --color-why-us-button: rgba(11, 70, 164, 1);
+    --color-why-us-subheading: rgba(159, 108, 12, 1);
+    --color-why-us-left: rgba(244, 246, 232, 1);
+    --color-why-us-right: rgba(244, 246, 232, 1);
+    --color-why-us-button: rgba(38, 158, 114, 1);
 
     --color-card-two-special-text: rgba(127, 17, 0, 1);
     --color-card-three-special-text: rgba(0, 127, 88, 1);
     --color-card-four-special-text: rgba(202, 131, 8, 1);
 
-    --color-card-one: rgba(246, 246, 246, 1);
-    --color-card-two: rgba(246, 246, 246, 1);
-    --color-card-three: rgba(246, 246, 246, 1);
-    --color-card-four: rgba(222, 247, 238, 1);
+    --color-card-one: rgba(245, 241, 232, 1);
+    --color-card-two: rgba(245, 241, 232, 1);
+    --color-card-three: rgba(245, 241, 232, 1);
+    --color-card-four: rgba(247, 233, 206, 1);
 
-    --color-contact-form: rgba(16, 86, 59, 1);
-    --color-contact-form-shape: rgba(0, 120, 75, 1);
+    --color-contact-form: rgba(100, 132, 120, 1);
+    --color-contact-form-shape: rgba(77, 96, 88, 1);
 
-    --color-footer: rgba(37, 48, 44, 1);
+    --color-footer: rgba(55, 55, 55, 1);
 }
 
 @layer utilities {
@@ -55,7 +55,7 @@
     .bg-glow-hero {
         top: -90%;
         left: -25%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(179, 227, 239, 0.7) 0%, rgba(179, 227, 239, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(200, 239, 179, 0.7) 0%, rgba(200, 239, 179, 0) 100%);
     }
 
     .bg-glow-advantages {
@@ -63,7 +63,7 @@
         height: 500px;
         top: 9%;
         left: -17%;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(157, 211, 255, 0.4) 0%, rgba(157, 211, 255, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(157, 175, 255, 0.4) 0%, rgba(157, 175, 255, 0) 100%);
     }
 
     .bg-glow-invests {
